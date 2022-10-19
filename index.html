@@ -4,13 +4,17 @@
     <link rel="stylesheet" type="text/css" href="./src/style.css" />
     <meta charset="UTF-8" />
   </head>
-  <body id="website">
+  <body>
     <script src="https://cdn.jsdelivr.net/npm/js-confetti@0.9.0/dist/js-confetti.browser.js"></script>
 
     <div class="hero-image">
       <div class="hero-text">
         <h1>Du pesto, des sons un sourire</h1>
-        <button class="discover" href="">Découvrir</button>
+        <a href="https://deezer.page.link/C2qSKHJrg2LFeVzY9">
+          <button class="discover">
+            Découvrir
+          </button>
+        </a>
       </div>
     </div>
     <script>
@@ -20,8 +24,8 @@
 
       setTimeout(() => {
         jsConfetti.addConfetti({
-          emojis: ["🌮", "⚡️", "🥦", "🍗"],
-          emojiSize: window.innerWidth > 768 ? 70 : 40,
+          emojis: ["🌮", "🎶", "🥦", "🍗"],
+          emojiSize: 70,
           confettiNumber: 30
         });
       }, 500);
